@@ -1,6 +1,6 @@
 body{
     height: 100vh; /* Define la altura del body al 100% de la altura de la ventana del navegador */
-    margin-top: 10px; /* Añade un margen superior de 10px al body */
+    /* Añade un margen superior de 10px al body */
     object-fit: cover; /* Asegura que la imagen de fondo cubra todo el contenedor */
     background-image: url(https://cdn.pixabay.com/photo/2013/02/21/19/12/lumber-84678_1280.jpg); /* Establece la imagen de fondo del body */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
@@ -15,19 +15,17 @@ body{
     background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área del div */
     height: 100vh; /* Define la altura del div al 100% de la altura de la ventana del navegador */
     display: flex; /* Usa el modelo de caja flexible para el layout del div */
-    justify-content: center; /* Centra horizontalmente el contenido del div */
     align-items: center; /* Centra verticalmente el contenido del div */
+    flex-direction: column;
 }
 
 .container{
-    width: 800px; /* Define el ancho del contenedor a 800px */
-    height: 400px; /* Define la altura del contenedor a 400px */
-    display: flex; /* Usa el modelo de caja flexible para el layout del contenedor */
-    flex-direction: column; /* Organiza los elementos flexibles en una columna */
-    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-    background-position: center; /* Centra la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área del contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
 
 .input1{
     width: 500px; /* Define el ancho del input a 500px */
@@ -40,7 +38,7 @@ body{
     color: white; /* Define el color del texto del input a blanco */
     font-weight: bold; /* Define el peso de la fuente del texto del input a negrita */
     border-radius: 10px; /* Añade bordes redondeados de 10px al input */
-    margin-inline: auto; /* Centra el input horizontalmente */
+     /* Centra el input horizontalmente */
 }
 
 .input1:active{
@@ -51,7 +49,7 @@ body{
     display: flex; /* Usa el modelo de caja flexible para el layout del div de la tarea */
     background-color: transparent; /* Establece el color de fondo a transparente */
     padding: 10px; /* Añade un padding de 10px */
-    margin-inline: auto; /* Centra el div horizontalmente */
+    /* Centra el div horizontalmente */
 }
 
 h1{
@@ -61,13 +59,13 @@ h1{
     color: white; /* Define el color del texto a blanco */
     font-weight: bolder; /* Define el peso de la fuente del texto a negrita */
     font-size: 90px; /* Define el tamaño de la fuente a 90px */
-    margin-left: 200px; /* Añade un margen izquierdo de 200px */
+    /* Añade un margen izquierdo de 200px */
 }
 
 ol{
     width: 500px; /* Define el ancho de la lista ordenada a 500px */
-    margin-left: 68px; /* Añade un margen izquierdo de 68px */
-    padding-inline: 0px; /* Elimina el padding en los lados de la lista */
+  /* Añade un margen izquierdo de 68px */
+   /* Elimina el padding en los lados de la lista */
 }
 
 li{
@@ -108,12 +106,15 @@ li:hover i{
 .countTareas{
     width: 500px; /* Define el ancho del div a 500px */
     display: flex; /* Usa el modelo de caja flexible para el layout del div */
-    margin-left: 68px; /* Añade un margen izquierdo de 68px */
+    /* Añade un margen izquierdo de 68px */
 }
-
+.Usuario{
+    display: flex;
+}
 .Usuario button{
     display: flex; /* Usa el modelo de caja flexible para el layout del div de la tarea */
     padding: 5px; /* Añade un padding de 10px */
     height: 38px;
     font-weight: bold;
 }
+
