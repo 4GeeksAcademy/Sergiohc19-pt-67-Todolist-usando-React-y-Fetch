@@ -87,11 +87,6 @@ li:hover i{
     visibility: hidden; /* Oculta los iconos por defecto */
 }
 
-.papelera{
-    border: none; /* Elimina el borde del botón */
-    margin-left: 8px; /* Añade un margen izquierdo de 8px */
-    background: transparent; /* Establece el fondo del botón a transparente */
-}
 
 .completado{
     border: none; /* Elimina el borde del botón */
@@ -118,3 +113,19 @@ li:hover i{
     font-weight: bold;
 }
 
+.fa-trash-can{
+    border: none; /* Elimina el borde del botón */
+    margin-left: 8px; /* Añade un margen izquierdo de 8px */
+    background: transparent; /* Establece el fondo del botón a transparente */
+}
+.eliminar{
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: transparent;
+}
+label{
+    font-style: oblique;
+    color: white;
+    font-weight: bolder;
+}
